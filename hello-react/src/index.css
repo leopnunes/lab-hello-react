@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.header {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  width: 280px;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 53px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  background-color: rgb(32, 33, 50);
+  height: 450px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 40px;
+  margin-top: 15px;
+
+}
+
+.header > p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+  width: 210px;
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 0px;
+}
+
+.header > button {
+  margin-right: 70%;
+  margin-top: 20px;
+  width: 19%;
+  height: 45px;
+  border-radius: 6px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  color: rgb(32, 33, 50);
+}
+
+.ironLogo {
+  margin-top: 30px;
+  width: 30px;
+}
+
+.burguinho {
+  margin-top: 30px;
+  width: 16px;
+}
+
+.body > .img1 {
+  margin-top: 90px;
+  width: 90px;
+}
+
+.body > .img2 {
+  margin-top: 90px;
+  width: 90px;
+}
+
+.body > .img3 {
+  margin-top: 90px;
+  width: 90px;
+}
+
+.body > .img4 {
+  margin-top: 90px;
+  width: 90px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+  font-family: 'Lato', sans-serif;
+}
